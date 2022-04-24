@@ -7,4 +7,3 @@ class clicks:
     
     def getAmountPerClick(self):
         return self.amountPerClick
-    

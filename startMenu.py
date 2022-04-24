@@ -3,7 +3,7 @@ import pygame_menu
 
 pygame.init()
 
-class mainMenu():
+class startMenu():
     def __init__(self):
         self.surface= pygame.display.set_mode((600,700))
         self.Continue = False
@@ -17,4 +17,3 @@ class mainMenu():
         self.menu.add.button('Play', self.start_the_game)
         self.menu.add.button('Quit', pygame_menu.events.EXIT)
         self.menu.mainloop(self.surface)
-        
